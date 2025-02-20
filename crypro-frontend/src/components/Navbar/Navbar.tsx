@@ -21,7 +21,7 @@ import {
   Avatar,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Link useNavigate } from "react-router-dom";
+import { Link , useNavigate } from "react-router-dom";
 // import { AccountCircle } from "@mui/icons-material";
 import { useAppSelector } from "../../store/store";
 import { useLogoutMutation } from "../../services/api";
