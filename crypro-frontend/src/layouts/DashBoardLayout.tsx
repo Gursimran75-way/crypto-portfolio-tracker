@@ -29,7 +29,7 @@ const Basic = () => {
   const theme = useTheme();
   const styles = useStyle(theme);
 
-  const { user: data } = useAppSelector((state) => state.auth);
+  const { user: data } = useAppSelector((state) => state?.auth);
 
   const { isLoading } = useMeQuery(undefined, { skip: !!data });
   //. !!null → false (query runs)
