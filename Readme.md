@@ -42,7 +42,7 @@ This project is designed for **cryptocurrency investors, trading platforms, and 
 - **Animations:** Framer Motion  
 - **Form Handling:** React Hook Form + Yup  
 - **Notifications:** React Toastify  
-- **API Data:** CoinGecko API (Polling every **1 min** for real-time updates)  
+- **API Data:** CoinGecko API (Polling every **1 min** for real-time updates )  
 
 ## 🚀 Installation
 
